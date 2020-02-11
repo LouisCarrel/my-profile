@@ -1,0 +1,90 @@
+body{
+	background-color: #F0F7EE;
+	color: red; 
+	
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	color: #706c61;
+	font-size: 38px;
+
+}
+
+h2{
+	color: #9dab86;
+}
+
+p,ul,li{
+	color: #222831;
+}
+
+p,ul{
+	font-family: 'Roboto', sans-serif;
+}
+
+li{
+	color: 
+}
+
+a{
+	text-decoration: none;
+	color: #222831;
+}
+
+a:hover{
+	color: #DCB8CB;
+}
+
+img{
+font-size: 30px;
+}
+
+.container{
+	width: 1000px;
+	margin: 50px auto;
+}
+
+.title-red, .list-black, .stage-black, .skills-black, .hobbies-black, .social-link-black{
+	background-color: white;
+	padding: 60px auto;
+	margin:50px auto;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	width: 1000px;
+
+}
+
+#logo{
+	width: 220px;
+}
+
+.title-red{
+	text-align: center;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  .btn-blue{
+	background-color: blue;
+	padding: 5px 15px;
+	border-radius: 4px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
